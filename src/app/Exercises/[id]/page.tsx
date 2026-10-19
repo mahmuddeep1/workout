@@ -1,4 +1,4 @@
-export const dynamic = "force-dynamic";
+import React from 'react';
 import Image from 'next/image';
 import { getData } from '@/Data/Exercises'
 import { Exercise } from '@/types/cards.types'
