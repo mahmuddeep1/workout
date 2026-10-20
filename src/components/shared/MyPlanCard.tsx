@@ -68,7 +68,7 @@ const MyPlanCard = ({
                             disabled={isDone}
                             className={`px-4 py-2.5 flex items-center gap-2 rounded-full font-bold text-sm transition cursor-pointer whitespace-nowrap shrink-0 ${isDone
                                 ? "bg-gray-700 text-gray-300 cursor-default"
-                                : "bg-[#C2F800] text-black hover:bg-[#a2ec17] hover:-translate-y-1"}`}>
+                                : "bg-[#cbeb59] text-black hover:bg-[#a2ec17] hover:-translate-y-1"}`}>
                             <Check size={18} />
                             <span>
                                 {isDone ? "Done" : "Mark as Done"}
